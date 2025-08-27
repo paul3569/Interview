@@ -22,6 +22,10 @@ public class HashClass {
             System.out.println("HashMap print !!! [key : " + key + ", value : " + hashMap.get(key)+"]");
         }
 
+        // containsKey(key) : 해당 key가 존재하는지 유무
+        System.out.println("HashMap Key is exists[one] : "+hashMap.containsKey("one"));
+        System.out.println("HashMap Key is exists[six] : "+hashMap.containsKey("six"));
+
         // LinkedHashMap<key, value>
         // 순서 보장
         // 조금 더 무거움
