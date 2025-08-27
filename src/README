@@ -1,8 +1,0 @@
-# Live Reload 설정
-
-- Plugin 추가 (spring-boot-devtools)
-- File > Settings > Build, Execution, Deployment > Compiler 에서 Build project automatically 체크
-- Settings 창 > Advanced Settings > Allow auto-make to start even if developed application is currently running 체크
-- Run/Debug Configurations > Modify options > On 'Update' action > Update classes and resources 선택
-    - On 'Update' action > Update classes and resources 체크
-    - On frame deactivation > Update classes and resources 체크
