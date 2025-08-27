@@ -11,21 +11,24 @@
 ***
 # 면접 준비
 
-## JAVA
+## JAVA #[notion](https://www.notion.so/JAVA-24d506d4a4f380d88cb5dd30199e7fbd)
 ***
 ### 생성자
-* common.constructorClass.java
+* [constructorClass.java](./src/main/java/com/example/interview/common/constructorClass.java)
 ### Overload vs Override
-* common.OverloadClass.java
-* common.OverrideClass.java
+* [OverloadClass.java](./src/main/java/com/example/interview/common/OverloadClass.java)
+* [OverrideClass.java](./src/main/java/com/example/interview/common/OverrideClass.java)
 ### 싱글톤
-* common.SingletonClass.java
+* [SingletonClass.java](./src/main/java/com/example/interview/common/SingletonClass.java)
 ### 추상클래스 vs interface
-* common.AbstractClass.java
-* common.InterfaceClass.java
+* [AbstractClass.java](./src/main/java/com/example/interview/common/AbstractClass.java)
+* [InterfaceClass.java](./src/main/java/com/example/interview/common/InterfaceClass.java)
 ### 제네릭타입
-https://www.notion.so/CS-24d506d4a4f380d88cb5dd30199e7fbd
-### try-with-resource
+* [GenericClass.java](./src/main/java/com/example/interview/common/GenericClass.java)
+### try-with-resources
+* [TryWithReourcesClass](./src/main/java/com/example/interview/common/TryWithReourcesClass.java)
+### String vs StringBuffer vs StringBuilder
+* [StringClass](./src/main/java/com/example/interview/common/StringClass.java)
 ### mvc(디자인 패턴)
 ### Garbage Collection
 ### Hash(자료구조)
