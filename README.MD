@@ -8,6 +8,10 @@
 - Run/Debug Configurations > Modify options > On 'Update' action > Update classes and resources 선택
     - On 'Update' action > Update classes and resources 체크
     - On frame deactivation > Update classes and resources 체크
+
+## 오픈 브라우저 설정 방법 
+- File > Settings > Tools > Web Browsers
+  - Default Browser > First listed -> Chrome
 ***
 # 면접 준비
 
