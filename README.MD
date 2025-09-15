@@ -12,6 +12,18 @@
 ## 오픈 브라우저 설정 방법 
 - File > Settings > Tools > Web Browsers
   - Default Browser > First listed -> Chrome
+
+## swagger 설정
+- build.gradle 의존성(dependencies) 추가
+  - implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+- application.properties에 추가
+  - springdoc.api-docs.path=/v3/api-docs
+  - springdoc.swagger-ui.path=/swagger-ui.html
+  - springdoc.swagger-ui.display-request-duration=true
+  - springdoc.swagger-ui.doc-expansion=list
+- api 별칭 설정 : Controller에 @Tag 어노테이션 추가
+  - EX) @Tag(name = "User API", description = "회원 관련 API")
+- 접속 url : http://localhost:8080/swagger-ui/index.html
 ***
 # 면접 준비
 
@@ -52,3 +64,4 @@
 ### 암호화 복호화
 ### 어노테이션
 ***
+

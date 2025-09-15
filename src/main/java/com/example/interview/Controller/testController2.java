@@ -1,14 +1,14 @@
-package com.example.interview.controller;
+package com.example.interview.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class testController {
+public class testController2 {
 
-    @GetMapping("/test")
+    @GetMapping("/test2")
     public String test(){
-        return "Test success!!!!!!";
+        return "modify test";
     }
 
 }
