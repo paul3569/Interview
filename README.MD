@@ -56,6 +56,7 @@
 * View - [signUp.html](./src/main/resources/static/user/signUp.html)
 * Controller - [UserController.java](./src/main/java/com/example/interview/Controller/UserController.java)
 ### Garbage Collection
+* [GarbageCollectionClass](./src/main/java/com/example/interview/common/GarbageCollectionClass.java)
 ### 람다식(Stream)
 ### 영속성 콘텍스트(JPA)
 ### 쓰레드
