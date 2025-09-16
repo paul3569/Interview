@@ -1,7 +1,6 @@
 # Settings
 ***
 ## Live Reload 설정
-
 - Plugin 추가 (spring-boot-devtools)
 - File > Settings > Build, Execution, Deployment > Compiler 에서 Build project automatically 체크
 - Settings 창 > Advanced Settings > Allow auto-make to start even if developed application is currently running 체크
@@ -24,6 +23,14 @@
 - api 별칭 설정 : Controller에 @Tag 어노테이션 추가
   - EX) @Tag(name = "User API", description = "회원 관련 API")
 - 접속 url : http://localhost:8080/swagger-ui/index.html
+
+## http 인코딩 설정
+- application.properties에 추가
+  - server.servlet.encoding.charset=UTF-8
+  - server.servlet.encoding.enabled=true
+  - server.servlet.encoding.force=true
+
+
 ***
 # 면접 준비
 
@@ -44,6 +51,10 @@
 ### try-with-resources
 * [TryWithReourcesClass](./src/main/java/com/example/interview/common/TryWithReourcesClass.java)
 ### mvc(디자인 패턴)
+* Model - VO [UserVO.java](./src/main/java/com/example/interview/Model/UserVO.java)
+* Model - Service [UserServiceImpl.java](./src/main/java/com/example/interview/Service/UserServiceImpl.java)
+* View - [signUp.html](./src/main/resources/static/user/signUp.html)
+* Controller - [UserController.java](./src/main/java/com/example/interview/Controller/UserController.java)
 ### Garbage Collection
 ### 람다식(Stream)
 ### 영속성 콘텍스트(JPA)
